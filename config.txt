@@ -1,0 +1,8 @@
+# ACTION                PROTOCOL                SOURCE_ADDRESS                  DESTINATION_ADDRESS             SOURCE_PORT                     DESTINATION_PORT        INTERFACE
+
+ACCEPT			TCP			anywhere			35.224.99.156			unprivileged			80			1
+DROP			TCP			35.224.99.156			anywhere			unprivileged			any			2
+		 
+
+
+		 
